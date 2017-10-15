@@ -1,0 +1,29 @@
+{
+  "name": "it-marathon-project",
+  "version": "0.1",
+  "description": "Back-end of service for rental housing search",
+  "author": "Pavel Yanushevsky",
+  "contributors": [
+    "Roman Gordienko",
+    "Mikalai Halavach"
+  ],
+  "bugs": {
+    "url": "https://github.com/AlaskanHusky/it-marathon-project-backend/issues",
+    "email": "4erep.moroz@mail.ru"
+  },
+  "license": "Apache 2.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlaskanHusky/it-marathon-project-backend.git"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "start": "node start"
+  }
+}
