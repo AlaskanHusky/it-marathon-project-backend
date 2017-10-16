@@ -1,6 +1,6 @@
 {
   "name": "it-marathon-project",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Back-end of service for rental housing search",
   "author": "Pavel Yanushevsky",
   "contributors": [
@@ -21,9 +21,14 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
     "nodemon": "^1.12.1"
   },
   "scripts": {
-    "start": "node start"
+    "start": "node app",
+    "lint": "./node_modules/.bin/eslint app.js",
+    "devstart": "nodemon app"
   }
 }
